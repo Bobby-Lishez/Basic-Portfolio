@@ -6,32 +6,41 @@
     </head>
     <body>
         <header class = "header">
-            <header class = "headerInset">
+            <div class = "headerInset">
                 <h3>Bob Peters</h3>
-            </header>
+            </div>
             <div class = "headerText">
-                About     Portfolio    Contact
+                <h3>About <a class = "headerTextLink" href = "portfolio.html">Portfolio</a> <a class = "headerTextLink" href = "contact.html">Contact</a></h3>
             </div>
         </header>
-        <div class = "mainSection">
-            <h1>About Me</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed sagittis enim. Proin sapien erat, luctus et urna sit amet, malesuada dapibus risus.
-                Ut placerat ligula leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in 
-                faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse interdum, risus quis facilisis iaculis, ligula magna vulputate tellus, quis accumsan
-                sem sapien ut sem. Donec consequat tempor tellus eu pharetra. Praesent tempor semper tempus. Aenean purus diam, vulputate id libero ut, efficitur tempor leo. 
-                Curabitur suscipit suscipit efficitur. Donec lobortis id urna ut imperdiet.
-            </p>
-        </div>
-        <div class = "sidebar">
-            <h2>Contact</h2>
-            <img height = 50px width = 50px src = "assets/images/linkedin.png" alt = "linkedin">
-            <img height = 50px width = 50px src = "assets/images/github.png" alt = "github">
-            <img height = 50px width = 50px src = "assets/images/stack_overflow.png" alt = "stackOverflow">
-
+        <div class = "contentArea">
+            <section class = "mainSection">
+                <h1>About Me</h1><hr>
+                <img id = "mePic" height = 100px width = 100px src = "assets/images/mepic.jpg" alt = "me">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed sagittis enim. Proin sapien erat, luctus et urna sit amet, malesuada dapibus risus.
+                    Ut placerat ligula leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in 
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse interdum, risus quis facilisis iaculis, ligula magna vulputate tellus, quis accumsan
+                    sem sapien ut sem. Donec consequat tempor tellus eu pharetra. Praesent tempor semper tempus. Aenean purus diam, vulputate id libero ut, efficitur tempor leo. 
+                    Curabitur suscipit suscipit efficitur. Donec lobortis id urna ut imperdiet.
+                </p>
+            </section>
+        
+            <section class = "sidebar">
+                <h2>Connect with me</h2><hr>
+                <a href = "https://www.linkedin.com/in/bob-peters-015785157/" target= "_blank">
+                <img height = 50px width = 50px src = "assets/images/linkedin.png" alt = "linkedin">
+                </a>&ensp;
+                <a href = "https://github.com/Bobby-Lishez" target= "_blank">
+                <img  height = 50px width = 50px src = "assets/images/github.png" alt = "github">
+                </a>&ensp;
+                <a href = "https://stackoverflow.com/users/story/9243291#" target= "_blank">
+                <img height = 50px width = 50px src = "assets/images/stack_overflow.png" alt = "stackOverflow">
+                </a>
+            </section>
         </div>
       <footer class = "footer">
-          C. 2018 Bob Peters
+        Copyright © 2018 Bob Peters
       </footer>
     </body>
 </html>
