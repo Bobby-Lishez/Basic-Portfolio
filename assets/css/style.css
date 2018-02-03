@@ -7,10 +7,6 @@ body {
     background: url(../images/spiration_dark.png);
 }
 .header {
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0; */
     position: relative;
     background: white;
     margin-bottom: 40px;
@@ -37,7 +33,6 @@ body {
     position: relative;    
     width: 960px;
     margin: 0 auto;
-    /* background: red; */
 }
 .mainSection {
     position: absolute;
@@ -75,7 +70,6 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    width: 100%;
     z-index: 3;
 }
 #mePic {
@@ -86,7 +80,6 @@ body {
     margin-left: 50px;
     height: 867px;
     width: 506px;
-    /* background: red; */
 }
 #box1 {
     position: absolute;
@@ -97,7 +90,6 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    background: blue;
 }
 #box2 {
     position: absolute;
@@ -108,7 +100,6 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    background: blue;
 }
 #box3 {
     position: absolute;
@@ -119,7 +110,6 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    background: blue;
 }
 #box4 {
     position: absolute;
@@ -130,7 +120,6 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    background: blue;
 }
 #box5 {
     position: absolute;
@@ -141,7 +130,6 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    background: blue;
 }
 .boxLabel {
     position: absolute;
@@ -150,6 +138,5 @@ body {
     text-align: center;
     color: gold;
     background: black;
-    /* opacity: 0.75; */
     z-index: 2;
 }
